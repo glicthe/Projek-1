@@ -1,0 +1,23 @@
+Heading Utama: Fauzan Juniar Mulyana
+H1: Fauzan Juniar Mulyana
+H2: Mahasiswa D4 Teknik Informatika
+H3: Tentang Saya
+H3: Pengalaman
+H3: Keterampilan
+H3: Hubungi Saya
+H4: Fakta Menarik
+Paragraf 1 dalam Tentang: 
+              Halo, saya adalah seorang mahasiswa. Saya memiliki minat dalam game dev, pemrograman, dan backend.
+
+Paragraf 2 dalam Tentang:
+              Sekarang, saya masih berfokus untuk menyelesaikan kuliah terlebih dahulu sembari belajar bahasa-bahasa pemrograman seperti C, python, 
+dan panda.
+              ketertarikan saya terhadap game dev adalah saat keiinginan melihat item-item dari game sangat keren, sehingga saya berminat untuk membuat nya sendiri
+              untuk memuaskan keinginan saya. Sampai saat ini saya masih belajar tentang game dev melalui youtube dan web-web lain
+
+Input Form: name Tipe: text
+Input Form: color Tipe: color
+Input Form: start Tipe: date
+Input Form: radio Tipe: radio
+Input Form: radio Tipe: radio
+Input Form: radio Tipe: radio
