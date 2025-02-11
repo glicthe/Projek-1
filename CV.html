@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biografi Saya</title>
+    <link rel="stylesheet" href="CV.css" />
+  </head>
+  <body>
+    <!-- Header: Judul dan Navigasi -->
+    <header>
+      <nav>
+        <h1>Fauzan Juniar Mulyana</h1>
+        <h2>Mahasiswa D4 Teknik Informatika</h2>
+      </nav>
+      <ul class="option">
+        <li class="opt"><a href="#Tentang">Tentang</a></li>
+        <li class="opt"><a href="#Pengalaman">Pengalaman</a></li>
+        <li class="opt"><a href="#Kontak">Kontak</a></li>
+      </ul>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+      <!-- Bagian Tentang (Biografi) -->
+      <div class="Me">
+      <article id="tentang">
+          <h3>Tentang Saya</h3>
+          <div class="aboutMe">
+            <p>
+              Halo, saya adalah seorang mahasiswa. Saya memiliki minat dalam game dev, pemrograman, dan backend.
+            </p>
+            <p>
+              Sekarang, saya masih berfokus untuk menyelesaikan kuliah terlebih dahulu sembari belajar bahasa-bahasa pemrograman seperti C, python, dan panda. 
+              ketertarikan saya terhadap game dev adalah saat keiinginan melihat item-item dari game sangat keren, sehingga saya berminat untuk membuat nya sendiri 
+              untuk memuaskan keinginan saya. Sampai saat ini saya masih belajar tentang game dev melalui youtube dan web-web lain 
+            </p>
+          </div>
+      </article>
+      </div>
+
+      <!-- Bagian Pengalaman -->
+      <div class="pnglmn">
+        <article id="pengalaman">
+          <h3>Pengalaman</h3>
+          <ul>
+            <li><b>If I Become</b> : Sebuah acara sosial yang turun langsung ke lapangan untuk membantu kampung-kampung yang kurang maju, posisi saya sebagai panitia bagian peralatan</li>
+            <li><b>Karang Taruna</b> : Posisi saya sebagai wakil ketua</li>
+          </ul>
+        </article>
+      </div>
+        
+        <!-- Bagian Keterampilan: Tabel Keterampilan -->
+      <div class="table">
+        <article id="keterampilan"> 
+          <h3>Keterampilan</h3>
+          <table border="1">
+            <thead>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Proficiency</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Pandas</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Beginner</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+        <!-- Aside: Informasi Tambahan -->
+        <div class="asidee">
+          <aside>
+            <h4>Fakta Menarik</h4>
+            <p>Saya suka coding, tidur, fotografi, dan merajut.</p>
+          </aside>
+        </div>
+      </div>
+    </main>
+
+
+    <!-- Footer: Kontak -->
+    <footer id="kontak">
+      <h3>Hubungi Saya</h3>
+      <form action="#" method="post">
+        <label for="name">Masukkan nama kamu:</label>
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="options">Pilih opsi:</label>
+        <select id="options" name="option">
+          <option value="option1">Option 1</option>
+          <option value="option2">Option 2</option>
+        </select><br /><br />
+
+        <label for="color">Pilih warna:</label>
+        <input type="color" id="color" name="color" /><br /><br />
+
+        <label for="start">Tanggal Mulai:</label>
+        <input type="date" id="start" name="start" value="2018-07-22" /><br /><br />
+
+        <fieldset>
+          <legend>Pilih salah satu:</legend>
+          <input type="radio" id="r1" name="radio" value="Radio 1" />
+          <label for="r1">Radio 1</label>
+          <input type="radio" id="r2" name="radio" value="Radio 2" />
+          <label for="r2">Radio 2</label>
+          <input type="radio" id="r3" name="radio" value="Radio 3" />
+          <label for="r3">Radio 3</label>
+        </fieldset>
+        <br />
+
+      </form>
+    </footer>
+  </body>
+</html>

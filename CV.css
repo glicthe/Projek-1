@@ -1,0 +1,92 @@
+* {
+    background-color: black;
+    color: aliceblue;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: gray;
+    padding-bottom: 20px;
+}
+
+h1 {
+    display: flex;
+    margin: 0px;
+    padding-left: 20px;
+    justify-content: left;
+    padding-top: 30px;
+    background-color: grey;
+}
+
+h2 {
+    background-color: grey;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.option {
+    display: flex;
+    
+    padding-right: 30px;
+    background-color: grey;
+    align-items: center;
+}
+
+a {
+    background-color: grey;
+}
+
+.opt {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    background-color: grey;
+    color: grey;
+
+}
+
+.opt :hover {
+    color: black;
+}
+
+.Me {
+    padding: 50px;
+    text-align: left;
+    display: flex;
+}
+
+.aboutMe {
+    margin: 10px;
+}
+
+h3 { 
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.pnglmn {
+    padding: 50px;
+    justify-content: center;
+    text-align: left;
+    display: flex;    
+}
+
+.table {
+    padding: 50px;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+}
+
+.asidee {
+
+    margin-left: 50px;
+    justify-content: center;
+}
